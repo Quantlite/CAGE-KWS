@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.log
+.DS_Store
+.idea/
+.vscode/
+
+# Large datasets and audio assets
+dataset/
+raw/
+piper_voices/
+
+# Model artifacts and generated files
+*.onnx
+*.pt
+*.pth
+*.tflite
+*.h5
+*.keras
+*.zip
+*.wav
+*.mp3
+*.db
